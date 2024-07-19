@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "power.h": "c",
+        "chip.h": "c"
+    }
+}
