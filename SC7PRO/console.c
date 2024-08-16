@@ -21,6 +21,7 @@ static struct ecdc_console *console;
 static int console_getc(void *console_hint)
 {
 	int err;
+	int right;
 
 	err = uart_getc();
 	return err >= 0 ? err : ECDC_GETC_EOF;
